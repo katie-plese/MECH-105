@@ -1,5 +1,5 @@
 # Incremental Search
-MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.
+MATLAB function to search for the root of a function within closed bounds.
 
 `function [xb] = incsearch (func, xmin, xmax, ns)`
 
@@ -11,5 +11,5 @@ MATLAB function to convert a square matrix into an upper triangular matrix and a
   <dd>ns = increment length</dd>
   
   <dt>OUTPUTS</dt>
-  <dd>xb = (something)</dd>
+  <dd>xb = matrix of brackets where a root may occur</dd>
 </dl>
