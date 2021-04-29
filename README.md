@@ -8,7 +8,7 @@ Algorithms created for MECH 105: Numerical Methods, CSU, Spring 2021.
 <dd>MATLAB function to estimate the root of a function using the False Position Method.</dd>
 </dl>
 
-### [Simpson's Rule](github.com/katie-plese/MECH-105)
+### [Simpson's Rule](https://github.com/katie-plese/MECH-105/tree/main/Simpson's%20Rule)
 <dl>
 <dd>MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3 Rule.</dd>
 </dl>
