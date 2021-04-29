@@ -1,4 +1,5 @@
 function [L, U, P] = luFactor_v04(A)
+% Description: MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.
 
 % ERROR CHECKING
 if nargin < 1
@@ -70,5 +71,4 @@ end
 % else
     % error('Incorrect Matrices!');
 % end
-
 end
