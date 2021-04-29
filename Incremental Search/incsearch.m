@@ -1,5 +1,5 @@
 function [ xb ] = incsearch(func,xmin,xmax,ns )
-% Description: Incremental Search Numerical Method Function
+% Description: MATLAB function to search for the root of a function within closed bounds.
 
 % ERROR CHECKING
 if nargin < 3
