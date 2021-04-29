@@ -5,9 +5,10 @@ MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3
 
 <dl>
   <dt>INPUTS</dt>
-  <dd>x = independent variable vector of equally spaced values</dd>
-  <dd>y = dependent variable vector of function values with respect to x</dd>
+  <dd>A = coefficient matrix</dd>
   
   <dt>OUTPUTS</dt>
-  <dd>I = numerical integral</dd>
+  <dd>L = lower triangular matrix, with 1's along the main diagonal</dd>
+  <dd>U = upper triangular matrix</dd>
+  <dd>P = pivot matrix</dd>
 </dl>
