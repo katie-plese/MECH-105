@@ -3,7 +3,7 @@ Algorithms created for MECH 105: Numerical Methods, CSU, Spring 2021.
 
 ***
 
-### [False Position](github.com/katie-plese/MECH-105)
+### [False Position](https://github.com/katie-plese/MECH-105/tree/main/False%20Position)
 <dl>
 <dd>MATLAB function to estimate the root of a function using the False Position Method.</dd>
 </dl>
