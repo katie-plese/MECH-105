@@ -1,21 +1,17 @@
 function [base2] = binaryConverter(base10)
-%binary A simple function to convert a base10 number to binary
-%   Inputs:
-%       base10 - A number in base10
-%   Outputs:
-%       base2 - The base10 number converted to binary
+% Description: MATLAB function to convert a base10 number to binary.
 
-% Prefill variables
+% PREASSIGN VARIABLES
 base2 = [];
 num = 1;
 
-% Find largest base 2 exponent
+% FIND LOCATION OF LARGEST BASE 2 EXPONENT
 exponent = 0;
 while (2^exponent <= base10)
     exponent = exponent + 1;
 end
 
-% Solve for base 2 array
+% SOLVE FOR BASE 2 ARRAY
 if base10 == 0
     base2 = [0];
 else
