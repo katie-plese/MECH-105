@@ -1,5 +1,5 @@
 function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
-% Description: xxx
+% Description: MATLAB function to estimate the root of a function using the False Position Method.
 
 % CHECK INPUTS
 if nargin < 3
