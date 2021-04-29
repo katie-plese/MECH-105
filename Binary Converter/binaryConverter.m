@@ -1,5 +1,5 @@
 function [base2] = binaryConverter(base10)
-% Description: MATLAB function to convert a base10 number to binary.
+% Description: MATLAB function to convert a number from base 10 to base 2.
 
 % PREASSIGN VARIABLES
 base2 = [];
