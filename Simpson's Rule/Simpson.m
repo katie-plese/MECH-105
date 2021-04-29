@@ -1,5 +1,5 @@
 function [I] = Simpson(x,y)
-% Description: MATLAB function for interating experimental data using Simpson's 1/3 Rule
+% Description: MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3 Rule.
 
 % ERROR CHECKING
 if length(x) ~= length(y)
