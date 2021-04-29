@@ -1,12 +1,5 @@
 function [I] = Simpson(x,y)
-% MATLAB function for interating experimental data using Simpson's 1/3 Rule
-
-% INPUTS
-% x = the vector of equally spaced independent variable
-% y = the vector of function values with respect to x
-
-% OUTPUTS
-% I = the numerical integral calculated
+% Description: MATLAB function for interating experimental data using Simpson's 1/3 Rule
 
 % ERROR CHECKING
 if length(x) ~= length(y)
@@ -19,11 +12,8 @@ for index = 1:length(x)
         error('Array must be equally spaced.');
     end
 end
-    
-% if linspace(x(1), x(length(x)), length(x)) ~= x
-    % error('Array must be equally spaced.');
-% end
 
+% EVEN NUMBER OF SEGMENTS?
 trap = 0;
 if rem((length(x) - 1),2) ~= 0
     warning('Final interval will use trapezoidal rule.');
@@ -37,18 +27,8 @@ j = 1;
 % SIMPSON's 1/3 RULE
 for index = 1:2:length(x)-2
     
-    % VARIABLE REDEFINITION
-    % a = x(index);
-    % b = x(index + 2);
-    % mid = (b+a)/2;
-    % h = b - a;
-    
-    % CREATE PARABOLIC ARC -- NO!!!
-    % func = fit([x(a) x(mid) x(b)],[y(a) y(mid) y(b)],'poly2');
-    
     % SIMPSON's 1/3 FORMULA
     I = I + (x(index+2) - x(index))*(y(index+2) + 4*y(index+1) + y(index))/6;
-    
     j = index;
 end
 
