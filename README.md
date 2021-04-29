@@ -18,7 +18,7 @@ Algorithms created for MECH 105: Numerical Methods, CSU, Spring 2021.
 <dd>MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.</dd>
 </dl>
 
-### [Binary Converter](github.com/katie-plese/MECH-105)
+### [Binary Converter](https://github.com/katie-plese/MECH-105/tree/main/Binary%20Converter)
 <dl>
 <dd>MATLAB function to convert a number from base 10 to base 2.</dd>
 </dl>
