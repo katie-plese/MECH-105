@@ -8,7 +8,7 @@ MATLAB function to convert a square matrix into an upper triangular matrix and a
   <dd>func = function evaluated</dd>
   <dd>xmin = lower guess</dd>
   <dd>xmax = upper guess</dd>
-  <dd>ns = (something)</dd>
+  <dd>ns = increment length</dd>
   
   <dt>OUTPUTS</dt>
   <dd>xb = (something)</dd>
