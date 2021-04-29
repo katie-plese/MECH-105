@@ -23,7 +23,7 @@ Algorithms created for MECH 105: Numerical Methods, CSU, Spring 2021.
 <dd>MATLAB function to convert a number from base 10 to base 2.</dd>
 </dl>
 
-### [Incremental Search](github.com/katie-plese/MECH-105)
+### [Incremental Search](https://github.com/katie-plese/MECH-105/tree/main/Incremental%20Search)
 <dl>
 <dd>MATLAB function to search for the root of a function within closed bounds.</dd>
 </dl>
