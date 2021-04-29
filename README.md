@@ -13,7 +13,7 @@ Algorithms created for MECH 105: Numerical Methods, CSU, Spring 2021.
 <dd>MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3 Rule.</dd>
 </dl>
 
-### [LU Factorization](github.com/katie-plese/MECH-105)
+### [LU Factorization](https://github.com/katie-plese/MECH-105/tree/main/LU%20Factorization)
 <dl>
 <dd>MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.</dd>
 </dl>
