@@ -1,5 +1,5 @@
 # False Position
-MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.
+MATLAB function to estimate the root of a function using the False Position Method.
 
 `function [root, fx, ea, iter] = falsePosition (func, xl, xu, es, maxit, varargin)`
 
