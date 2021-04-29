@@ -1,5 +1,5 @@
 # LU Factorization
-MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3 Rule.
+MATLAB function to convert a square matrix into an upper triangular matrix and a lower triangular matrix, such that A = L*U.
 
 `function [L, U, P] = luFactor_v04(A)`
 
