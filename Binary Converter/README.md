@@ -8,5 +8,5 @@ MATLAB function to convert a number from base 10 to base 2.
   <dd>base10 = number in base 10</dd>
   
   <dt>OUTPUTS</dt>
-  <dd>base2 = array holding values of base 2 conversion</dd>
+  <dd>base2 = array with values of base 2 conversion</dd>
 </dl>
