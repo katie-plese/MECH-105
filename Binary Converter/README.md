@@ -1,20 +1,12 @@
 # Binary Converter
+MATLAB function to convert a number from base 10 to base 2.
 
-Inputs:
-%       base10 - A number in base10
-%   Outputs:
-%       base2 - The base10 number converted to binary
-
-# Simpson's 1/3 Rule
-MATLAB function to integrate a set of equally spaced vectors using Simpson's 1/3 Rule.
-
-`function [I] = Simpson (x,y)`
+`function [base2] = binaryConverter (base10)`
 
 <dl>
   <dt>INPUTS</dt>
-  <dd>x = independent variable vector of equally spaced values</dd>
-  <dd>y = dependent variable vector of function values with respect to x</dd>
+  <dd>base10 = number in base 10</dd>
   
   <dt>OUTPUTS</dt>
-  <dd>I = numerical integral</dd>
+  <dd>base2 = array holding values of base 2 conversion</dd>
 </dl>
